@@ -74,3 +74,19 @@
 .register button:hover {
   background-color: #20345f;
 }
+
+.register form p {
+  margin-top: 1em;
+  text-align: left;
+  font-size: .8em;
+}
+
+.register form p a {
+  text-decoration: none;
+  color: #e5e5e5;
+}
+
+.register form p a:hover {
+  color: #14213d;
+  text-decoration: underline;
+}
