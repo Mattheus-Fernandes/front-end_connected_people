@@ -1,0 +1,21 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  background-color: #ff6961;
+  border: 3px solid #e20d0d;
+  padding: 1em;
+  width: 70%;
+  border-radius: 2%;
+}
+
+
+.error ul {
+  padding: 0 1em;
+}
+
+.error li {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
