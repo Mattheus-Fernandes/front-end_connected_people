@@ -1,0 +1,76 @@
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #e5e5e5;
+}
+
+.register form {
+  text-align: center;
+  padding: 2em;
+  border-radius: 2%;
+  background-color: #fca311;
+  color: #14213d;
+}
+
+.register form h2 {
+  font-size: 3em;
+  margin-bottom: .5em;
+}
+
+.register form span {
+  font-size: 1.3em;
+}
+
+
+.register .area {
+  display: flex;
+}
+
+
+.register div {
+  margin: 1em auto;
+}
+
+.register .division {
+  border: 1px solid #14213d93;
+}
+
+.register div label p {
+  text-align: left;
+  font-size: 1.2em;
+  margin-bottom: .5em;
+}
+
+.register div label input {
+  width: 100%;
+  border-radius: 2%;
+  outline: none;
+  border: none;
+  padding: .5em;
+  font-size: 1.2em;
+  background-color: #e5e5e5;
+}
+
+.register div label input::placeholder {
+  color: #b8b6b6;
+}
+
+.register button {
+  padding: .6em 2em;
+  outline: none;
+  border: none;
+  border-radius: 3%;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background-color: #14213d;
+  color: #fca311;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.register button:hover {
+  background-color: #20345f;
+}
